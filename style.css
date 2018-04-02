@@ -1,9 +1,13 @@
 #center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  margin: auto;
   text-align: center;
+}
+
+#bottom {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  height: 5em;
 }
 
 .slogan {
@@ -16,13 +20,4 @@
 
 .contact {
   
-}
-
-.quote {
-  text-align: center;
-  margin-left:25%;
-  margin-right:25%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
