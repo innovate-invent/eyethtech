@@ -22,4 +22,7 @@
   text-align: center;
   margin-left:25%;
   margin-right:25%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
