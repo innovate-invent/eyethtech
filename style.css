@@ -2,6 +2,11 @@ html, body {
   height: 100%
 }
 
+#container {
+   min-height:100%;
+   position:relative;
+}
+
 #center {
   margin-left: 25%;
   margin-right: 25%;
@@ -14,7 +19,8 @@ html, body {
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
-  height: 5em;
+  position:absolute;
+  bottom:0;
 }
 
 .slogan {
